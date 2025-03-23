@@ -72,7 +72,7 @@ const   App = () => {
   </div>
   <section className="px-5 py-12 xs:p-10 max-w-7xl mx-auto">
     <h2>All Movies</h2>
-    <div className=" columns-1 md:columns-3 mb-10 ">
+    <div className="  align-top columns-1 md:columns-3 lg:columns-4 mb-10 ">
       {
 		isLoading ? (<Loading/>) : errorMsg ? (<p className="text-center text-red-500">{errorMsg}</p>) :
 			(
